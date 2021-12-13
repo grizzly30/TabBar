@@ -13,6 +13,16 @@
 		045D43DA2760C4CB00FCA598 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 045D43D82760C4CB00FCA598 /* Main.storyboard */; };
 		045D43DC2760C4CD00FCA598 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 045D43DB2760C4CD00FCA598 /* Assets.xcassets */; };
 		045D43DF2760C4CD00FCA598 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 045D43DD2760C4CD00FCA598 /* LaunchScreen.storyboard */; };
+		04C215D427635D9A00E79F34 /* NumberViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C215D327635D9A00E79F34 /* NumberViewController.swift */; };
+		04C215D627635DC700E79F34 /* LetterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C215D527635DC700E79F34 /* LetterViewController.swift */; };
+		04C215D827635DD300E79F34 /* ColorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C215D727635DD300E79F34 /* ColorViewController.swift */; };
+		04C215DA2763746500E79F34 /* Number2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C215D92763746500E79F34 /* Number2ViewController.swift */; };
+		04C215DC276374E900E79F34 /* Number3ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C215DB276374E900E79F34 /* Number3ViewController.swift */; };
+		04C215DE2766B4A700E79F34 /* Letter2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C215DD2766B4A700E79F34 /* Letter2ViewController.swift */; };
+		04C215E02766B67800E79F34 /* Letter3ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C215DF2766B67800E79F34 /* Letter3ViewController.swift */; };
+		04C215E22766B6C300E79F34 /* Color2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C215E12766B6C300E79F34 /* Color2ViewController.swift */; };
+		04C215E42766B6DA00E79F34 /* Color3ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C215E32766B6DA00E79F34 /* Color3ViewController.swift */; };
+		04CFD1B42760FC0D00978FFC /* TabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CFD1B32760FC0D00978FFC /* TabViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +34,16 @@
 		045D43DB2760C4CD00FCA598 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		045D43DE2760C4CD00FCA598 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		045D43E02760C4CD00FCA598 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04C215D327635D9A00E79F34 /* NumberViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberViewController.swift; sourceTree = "<group>"; };
+		04C215D527635DC700E79F34 /* LetterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LetterViewController.swift; sourceTree = "<group>"; };
+		04C215D727635DD300E79F34 /* ColorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorViewController.swift; sourceTree = "<group>"; };
+		04C215D92763746500E79F34 /* Number2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Number2ViewController.swift; sourceTree = "<group>"; };
+		04C215DB276374E900E79F34 /* Number3ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Number3ViewController.swift; sourceTree = "<group>"; };
+		04C215DD2766B4A700E79F34 /* Letter2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Letter2ViewController.swift; sourceTree = "<group>"; };
+		04C215DF2766B67800E79F34 /* Letter3ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Letter3ViewController.swift; sourceTree = "<group>"; };
+		04C215E12766B6C300E79F34 /* Color2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color2ViewController.swift; sourceTree = "<group>"; };
+		04C215E32766B6DA00E79F34 /* Color3ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color3ViewController.swift; sourceTree = "<group>"; };
+		04CFD1B32760FC0D00978FFC /* TabViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +83,16 @@
 				045D43DB2760C4CD00FCA598 /* Assets.xcassets */,
 				045D43DD2760C4CD00FCA598 /* LaunchScreen.storyboard */,
 				045D43E02760C4CD00FCA598 /* Info.plist */,
+				04CFD1B32760FC0D00978FFC /* TabViewController.swift */,
+				04C215D327635D9A00E79F34 /* NumberViewController.swift */,
+				04C215D727635DD300E79F34 /* ColorViewController.swift */,
+				04C215D527635DC700E79F34 /* LetterViewController.swift */,
+				04C215D92763746500E79F34 /* Number2ViewController.swift */,
+				04C215DB276374E900E79F34 /* Number3ViewController.swift */,
+				04C215DD2766B4A700E79F34 /* Letter2ViewController.swift */,
+				04C215DF2766B67800E79F34 /* Letter3ViewController.swift */,
+				04C215E12766B6C300E79F34 /* Color2ViewController.swift */,
+				04C215E32766B6DA00E79F34 /* Color3ViewController.swift */,
 			);
 			path = Vezba;
 			sourceTree = "<group>";
@@ -138,9 +168,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04C215DC276374E900E79F34 /* Number3ViewController.swift in Sources */,
+				04C215DE2766B4A700E79F34 /* Letter2ViewController.swift in Sources */,
+				04C215DA2763746500E79F34 /* Number2ViewController.swift in Sources */,
+				04C215E42766B6DA00E79F34 /* Color3ViewController.swift in Sources */,
+				04CFD1B42760FC0D00978FFC /* TabViewController.swift in Sources */,
+				04C215E02766B67800E79F34 /* Letter3ViewController.swift in Sources */,
+				04C215E22766B6C300E79F34 /* Color2ViewController.swift in Sources */,
 				045D43D72760C4CB00FCA598 /* ViewController.swift in Sources */,
 				045D43D32760C4CB00FCA598 /* AppDelegate.swift in Sources */,
 				045D43D52760C4CB00FCA598 /* SceneDelegate.swift in Sources */,
+				04C215D827635DD300E79F34 /* ColorViewController.swift in Sources */,
+				04C215D627635DC700E79F34 /* LetterViewController.swift in Sources */,
+				04C215D427635D9A00E79F34 /* NumberViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
