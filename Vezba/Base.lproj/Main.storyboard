@@ -32,24 +32,27 @@
                             <constraint firstItem="5lX-TG-WIA" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="t83-7s-LYT"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <segue destination="sdg-Lw-glg" kind="show" identifier="Color3" id="GQw-dC-0jC"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="20" y="82"/>
+            <point key="canvasLocation" x="113" y="82"/>
         </scene>
-        <!--View Controller-->
+        <!--Color3 View Controller-->
         <scene sceneID="eC8-ed-FPI">
             <objects>
-                <viewController id="sdg-Lw-glg" sceneMemberID="viewController">
+                <viewController id="sdg-Lw-glg" customClass="Color3ViewController" customModule="Vezba" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Sdo-V1-vc2">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="CyA-lU-c9c">
-                                <rect key="frame" x="0.0" y="44" width="414" height="852"/>
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="kRP-pX-RrW" userLabel="ContentView">
-                                        <rect key="frame" x="0.0" y="0.0" width="414" height="852"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                                         <subviews>
                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="cFI-EV-Lwf">
                                                 <rect key="frame" x="0.0" y="0.0" width="414" height="128"/>
@@ -133,7 +136,17 @@
                             <constraint firstItem="CyA-lU-c9c" firstAttribute="leading" secondItem="Sdo-V1-vc2" secondAttribute="leading" id="vWv-Kk-DDy"/>
                         </constraints>
                     </view>
+                    <navigationItem key="navigationItem" id="qGl-9z-JTm"/>
                     <size key="freeformSize" width="414" height="896"/>
+                    <connections>
+                        <outlet property="imageDown" destination="Azq-Tj-c4g" id="W1q-F9-eTI"/>
+                        <outlet property="imageTop" destination="cFI-EV-Lwf" id="Hxu-zc-jba"/>
+                        <outlet property="nameLabel" destination="sjZ-dW-4mx" id="bwp-T8-GqG"/>
+                        <outlet property="opis1Label" destination="8ue-JF-pre" id="CkH-8h-1BQ"/>
+                        <outlet property="opis2Label" destination="XWZ-N8-H04" id="Udb-cl-UVK"/>
+                        <outlet property="opis3Label" destination="nw8-nh-fPi" id="02B-md-OzX"/>
+                        <outlet property="tabela" destination="xcX-0Q-XtK" id="YfA-Vh-6nf"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="KSQ-rA-v8J" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>

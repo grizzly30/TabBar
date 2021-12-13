@@ -22,6 +22,8 @@
 		04C215E02766B67800E79F34 /* Letter3ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C215DF2766B67800E79F34 /* Letter3ViewController.swift */; };
 		04C215E22766B6C300E79F34 /* Color2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C215E12766B6C300E79F34 /* Color2ViewController.swift */; };
 		04C215E42766B6DA00E79F34 /* Color3ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C215E32766B6DA00E79F34 /* Color3ViewController.swift */; };
+		04C215E72767759D00E79F34 /* PostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C215E52767759D00E79F34 /* PostCell.swift */; };
+		04C215E82767759D00E79F34 /* PostCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04C215E62767759D00E79F34 /* PostCell.xib */; };
 		04CFD1B42760FC0D00978FFC /* TabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CFD1B32760FC0D00978FFC /* TabViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -43,6 +45,8 @@
 		04C215DF2766B67800E79F34 /* Letter3ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Letter3ViewController.swift; sourceTree = "<group>"; };
 		04C215E12766B6C300E79F34 /* Color2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color2ViewController.swift; sourceTree = "<group>"; };
 		04C215E32766B6DA00E79F34 /* Color3ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color3ViewController.swift; sourceTree = "<group>"; };
+		04C215E52767759D00E79F34 /* PostCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostCell.swift; sourceTree = "<group>"; };
+		04C215E62767759D00E79F34 /* PostCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PostCell.xib; sourceTree = "<group>"; };
 		04CFD1B32760FC0D00978FFC /* TabViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -93,6 +97,8 @@
 				04C215DF2766B67800E79F34 /* Letter3ViewController.swift */,
 				04C215E12766B6C300E79F34 /* Color2ViewController.swift */,
 				04C215E32766B6DA00E79F34 /* Color3ViewController.swift */,
+				04C215E52767759D00E79F34 /* PostCell.swift */,
+				04C215E62767759D00E79F34 /* PostCell.xib */,
 			);
 			path = Vezba;
 			sourceTree = "<group>";
@@ -158,6 +164,7 @@
 				045D43DF2760C4CD00FCA598 /* LaunchScreen.storyboard in Resources */,
 				045D43DC2760C4CD00FCA598 /* Assets.xcassets in Resources */,
 				045D43DA2760C4CB00FCA598 /* Main.storyboard in Resources */,
+				04C215E82767759D00E79F34 /* PostCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -175,6 +182,7 @@
 				04CFD1B42760FC0D00978FFC /* TabViewController.swift in Sources */,
 				04C215E02766B67800E79F34 /* Letter3ViewController.swift in Sources */,
 				04C215E22766B6C300E79F34 /* Color2ViewController.swift in Sources */,
+				04C215E72767759D00E79F34 /* PostCell.swift in Sources */,
 				045D43D72760C4CB00FCA598 /* ViewController.swift in Sources */,
 				045D43D32760C4CB00FCA598 /* AppDelegate.swift in Sources */,
 				045D43D52760C4CB00FCA598 /* SceneDelegate.swift in Sources */,
