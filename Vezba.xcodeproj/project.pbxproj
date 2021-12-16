@@ -24,6 +24,7 @@
 		04C215E42766B6DA00E79F34 /* Color3ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C215E32766B6DA00E79F34 /* Color3ViewController.swift */; };
 		04C215E72767759D00E79F34 /* PostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C215E52767759D00E79F34 /* PostCell.swift */; };
 		04C215E82767759D00E79F34 /* PostCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04C215E62767759D00E79F34 /* PostCell.xib */; };
+		04C215EA2767807C00E79F34 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C215E92767807C00E79F34 /* Post.swift */; };
 		04CFD1B42760FC0D00978FFC /* TabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CFD1B32760FC0D00978FFC /* TabViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -47,6 +48,7 @@
 		04C215E32766B6DA00E79F34 /* Color3ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color3ViewController.swift; sourceTree = "<group>"; };
 		04C215E52767759D00E79F34 /* PostCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostCell.swift; sourceTree = "<group>"; };
 		04C215E62767759D00E79F34 /* PostCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PostCell.xib; sourceTree = "<group>"; };
+		04C215E92767807C00E79F34 /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
 		04CFD1B32760FC0D00978FFC /* TabViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -84,6 +86,7 @@
 				045D43D42760C4CB00FCA598 /* SceneDelegate.swift */,
 				045D43D62760C4CB00FCA598 /* ViewController.swift */,
 				045D43D82760C4CB00FCA598 /* Main.storyboard */,
+				04C215E92767807C00E79F34 /* Post.swift */,
 				045D43DB2760C4CD00FCA598 /* Assets.xcassets */,
 				045D43DD2760C4CD00FCA598 /* LaunchScreen.storyboard */,
 				045D43E02760C4CD00FCA598 /* Info.plist */,
@@ -184,6 +187,7 @@
 				04C215E22766B6C300E79F34 /* Color2ViewController.swift in Sources */,
 				04C215E72767759D00E79F34 /* PostCell.swift in Sources */,
 				045D43D72760C4CB00FCA598 /* ViewController.swift in Sources */,
+				04C215EA2767807C00E79F34 /* Post.swift in Sources */,
 				045D43D32760C4CB00FCA598 /* AppDelegate.swift in Sources */,
 				045D43D52760C4CB00FCA598 /* SceneDelegate.swift in Sources */,
 				04C215D827635DD300E79F34 /* ColorViewController.swift in Sources */,
@@ -337,6 +341,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = V6VGYTM9R5;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Vezba/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -364,6 +369,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = V6VGYTM9R5;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Vezba/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;

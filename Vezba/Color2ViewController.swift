@@ -18,11 +18,12 @@ class Color2ViewController: ColorViewController {
     
     }
     @objc private func pressed2Button(){
-        //let vcn3 = Color3ViewController()
+        let vcn3 = Color3ViewController()
         
         navigationController?.popViewController(animated: false)
-        //navigationController?.pushViewController(vcn3, animated: false)
-        performSegue(withIdentifier: "Color3", sender: self)
+        navigationController?.pushViewController(vcn3, animated: false)
+        
+        //performSegue(withIdentifier: "Color3", sender: self)
     }
     
 
